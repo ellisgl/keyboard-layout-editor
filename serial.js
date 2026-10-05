@@ -3,7 +3,7 @@ var $serial = (typeof(exports) !== 'undefined') ? exports : {};
 	"use strict";
 
 	// We need this so we can test locally and still save layouts to AWS
-	$serial.base_href = "http://www.keyboard-layout-editor.com";
+	$serial.base_href = "https://www.keyboard-layout-editor.com";
 
 	// Helper to copy an object; doesn't handle loops/circular refs, etc.
 	function copy(o) {
